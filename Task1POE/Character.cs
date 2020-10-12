@@ -20,7 +20,7 @@ namespace Task1POE
 
 
         private TileType tileType;
-        public Character(int x , int y) : base (x,y)-
+        public Character(int x , int y) : base (x,y)
            /* A constructor that receives X and Y positions and a symbol and delegates
              the setting of those variables to the Tile class via a constructor initializer.*/
         {
@@ -51,12 +51,14 @@ namespace Task1POE
         {
             int XDifference = X - target.X;
             int YDifference = Y - target.Y;
-        }
-        public virtual bool CheckRange()
-        {
+            return ;
 
         }
-        public void Move()
+        public virtual bool CheckRange(Character target)
+        {
+             target.Distanceto;
+        }
+        public void Move(Movement )
         {
 
         }

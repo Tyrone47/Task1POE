@@ -6,8 +6,13 @@ using System.Threading.Tasks;
 
 namespace Task1POE
 {
-    class Goblin : Enemy
+    internal abstract class Goblin : Enemy
     {
 
+        Goblin(int Enemy ,int HP, int Damage)
+        {
+            HP = 
+
+        }
     }
 }
